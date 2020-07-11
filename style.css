@@ -1,0 +1,83 @@
+nav{
+	height: 105px;
+	width: 100%;
+	background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+	border-radius: 5px;
+}
+.active{
+	padding: 8px;
+	background-color: black;
+	color: coral;
+	margin-right:1px;
+	margin-left:1px;
+	border: 2px solid;
+	border-radius:12px;
+}
+nav ul{
+	font-family: 'Economica', sans-serif;
+	list-style: none;
+	float: right;
+	margin-right: 14px;
+	word-spacing: 14px;
+	font-size: 20px
+}
+nav ul li{
+	display: inline-block;
+	margin-top: 10px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+	transition: 0.5s ease;
+	word-spacing: 4px;
+}
+nav ul li a:hover{
+	color: black;
+	font-family: 'Cookie', cursive; 
+	background: coral;
+	font-size: x-large;
+	border: 3px solid white;
+	border-radius: 8px;
+	transition: 0.01s ease;
+	padding: 8px;
+}
+
+.banner{
+	margin-top: 10px;
+	height:500px;
+	width: 100%;
+	background: url('burger.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: 10s ease;
+}
+.banner h1{
+	position: absolute;
+	font-size: 40px;
+	color: white;
+	top: 38%;
+	left: 42%;
+	background: #245771;
+	border-color: :coral;
+	border: 2px solid coral;
+	border-radius: 12px;
+	padding: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.content p{
+	height: 5%;
+	font-size:100px;
+    text-align:center;
+    background: #245771;
+}
+.content span:hover{
+	height: 200px;
+	width: auto;
+	color: coral;
+}
+
+
+
